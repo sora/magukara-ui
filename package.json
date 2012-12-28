@@ -7,11 +7,14 @@
     "url": "https://github.com/sora/magukara-ui.git"
   },
   "dependencies": {
-    "coffee-script": "1.4.x",
     "express": "3.x.x",
     "ejs": "0.8.x",
     "mmap": "0.0.4",
     "ws": "0.4.x"
+  },
+  "devDependencies": {
+    "coffee-script": ">= 1.4",
+    "uglify-js": "<2.0"
   },
   "engines": {
     "node": ">= 0.6"
